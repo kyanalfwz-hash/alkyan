@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================= SEO Meta Tags ================= -->
+    <title>كيان الفوز | KAYAN ALFAWZ - توريد ونقل الديزل في السعودية</title>
+    <meta name="description" content="شركة كيان الفوز تقدم خدمات توريد ونقل الديزل بجودة عالية ومعايير سلامة دقيقة داخل المملكة العربية السعودية. عقود مرنة للمصانع، المزارع، والشركات.">
+    <meta name="keywords" content="توريد ديزل, نقل ديزل, شركة ديزل, كيان الفوز, ديزل للمصانع, وقود ديزل, السعودية, الرياض, توريد محروقات, مقاولات ديزل">
+    <meta name="author" content="كيان الفوز">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kayanalfawz.com/">
+    <!-- يفضل تغيير الرابط لاحقاً لرابط الدومين الحقيقي -->
+
+    <!-- ================= Open Graph / Facebook / WhatsApp ================= -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kayanalfawz.com/">
+    <meta property="og:title" content="كيان الفوز | توريد ونقل الديزل">
+    <meta property="og:description" content="الخيار الأول لتوريد ونقل الديزل في السعودية. نوفر خدماتنا بجودة عالية وسرعة في التوصيل لضمان استمرارية أعمالكم.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:site_name" content="كيان الفوز">
+    <meta property="og:locale" content="ar_SA">
+
+    <!-- ================= Twitter Card ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="كيان الفوز | توريد ونقل الديزل">
+    <meta name="twitter:description" content="الخيار الأول لتوريد ونقل الديزل في السعودية. نوفر خدماتنا بجودة عالية وسرعة في التوصيل.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- ================= Schema.org for Google Local Business ================= -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "كيان الفوز لتوريد ونقل الديزل",
+            "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            "@id": "https://kayanalfawz.com",
+            "url": "https://kayanalfawz.com",
+            "telephone": "+966551870745",
+            "email": "kayanalfawz@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "الرياض",
+                "addressCountry": "SA"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 24.7136,
+                "longitude": 46.6753
+            },
+            "areaServed": "Saudi Arabia",
+            "description": "شركة كيان الفوز تقدم خدمات متكاملة لتوريد ونقل الديزل لكافة القطاعات في المملكة العربية السعودية بأعلى معايير الجودة والسلامة."
+        }
+    </script>
+
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind CSS (via CDN for single-file deployment) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration & Custom CSS -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a', // Dark Slate
+                        secondary: '#1e3a8a', // Deep Blue
+                        accent: '#f59e0b', // Amber/Gold
+                        accentHover: '#d97706',
+                        surface: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Cairo', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles */
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(to left, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.6));
+        }
+        
+        .navbar-scrolled {
+            background-color: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        
+        .service-card:hover .service-icon {
+            transform: scale(1.1) translateY(-5px);
+            color: #f59e0b;
+        }
+        
+        .service-icon {
+            transition: all 0.3s ease;
+        }
+        
+        @keyframes pulse-whatsapp {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+        
+        .whatsapp-float {
+            animation: pulse-whatsapp 2s infinite;
+        }
+        
+        .text-gradient {
+            background: linear-gradient(to left, #f59e0b, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #f59e0b;
+            border-radius: 4px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #d97706;
+        }
+        /* FAQ Accordion Styling */
+        
+        details>summary {
+            list-style: none;
+        }
+        
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        details[open] summary~* {
+            animation: sweep .5s ease-in-out;
+        }
+        
+        @keyframes sweep {
+            0% {
+                opacity: 0;
+                margin-top: -10px;
+            }
+            100% {
+                opacity: 1;
+                margin-top: 0;
+            }
+        }
+        /* Process Line */
+        
+        @media (min-width: 768px) {
+            .process-line::after {
+                content: '';
+                position: absolute;
+                top: 30px;
+                left: -50%;
+                width: 100%;
+                height: 2px;
+                background-color: #e2e8f0;
+                z-index: -1;
+            }
+            .process-step:last-child .process-line::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-surface text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300 py-4 text-white bg-transparent">
+        <div class="container mx-auto px-4 md:px-8 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2 group" aria-label="الرئيسية">
+                <div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center transform group-hover:rotate-12 transition-transform">
+                    <i class="fa-solid fa-truck-droplet text-primary text-xl" aria-hidden="true"></i>
+                </div>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-2xl font-bold text-white tracking-wider">كيان الفوز</span>
+                    <span class="text-xs text-accent font-semibold tracking-widest uppercase">Kayan AlFawz</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden lg:flex gap-6 font-semibold text-sm">
+                <a href="#home" class="hover:text-accent transition-colors">الرئيسية</a>
+                <a href="#about" class="hover:text-accent transition-colors">من نحن</a>
+                <a href="#services" class="hover:text-accent transition-colors">خدماتنا</a>
+                <a href="#sectors" class="hover:text-accent transition-colors">القطاعات</a>
+                <a href="#process" class="hover:text-accent transition-colors">آلية العمل</a>
+                <a href="#why-us" class="hover:text-accent transition-colors">المميزات</a>
+                <a href="#testimonials" class="hover:text-accent transition-colors">شركاؤنا</a>
+            </nav>
+
+            <!-- Contact CTA -->
+            <div class="hidden md:flex">
+                <a href="tel:+966551870745" class="bg-accent hover:bg-accentHover text-primary font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 flex items-center gap-2 shadow-lg shadow-accent/30">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <span>اتصل بنا</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="lg:hidden text-2xl focus:outline-none" aria-label="فتح القائمة">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-primary/95 backdrop-blur-md border-t border-gray-700 shadow-xl pb-4 max-h-[80vh] overflow-y-auto">
+            <nav class="flex flex-col px-4 pt-4 space-y-2 font-semibold text-center">
+                <a href="#home" class="mobile-link text-white hover:text-accent p-2">الرئيسية</a>
+                <a href="#about" class="mobile-link text-white hover:text-accent p-2">من نحن</a>
+                <a href="#services" class="mobile-link text-white hover:text-accent p-2">خدماتنا</a>
+                <a href="#sectors" class="mobile-link text-white hover:text-accent p-2">القطاعات المستهدفة</a>
+                <a href="#process" class="mobile-link text-white hover:text-accent p-2">آلية العمل</a>
+                <a href="#why-us" class="mobile-link text-white hover:text-accent p-2">لماذا نحن</a>
+                <a href="#faq" class="mobile-link text-white hover:text-accent p-2">الأسئلة الشائعة</a>
+                <a href="tel:+966551870745" class="bg-accent text-primary p-3 rounded-lg flex items-center justify-center gap-2 mx-4 mt-4">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i> اتصل بنا الآن
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen min-h-[600px] flex items-center justify-center bg-primary overflow-hidden">
+        <div class="absolute inset-0 w-full h-full">
+            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="شاحنات وصهاريج نقل ديزل كيان الفوز" class="w-full h-full object-cover object-center opacity-40">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10 text-center md:text-right pt-20">
+            <div class="max-w-3xl">
+                <span data-aos="fade-down" data-aos-duration="1000" class="inline-block py-1 px-3 rounded-full bg-accent/20 text-accent font-bold text-sm mb-4 border border-accent/30">
+                    الخيار الأول في المملكة العربية السعودية
+                </span>
+                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
+                    <span class="text-gradient">كيان الفوز</span><br> وقود موثوق، ونقل آمن
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
+                    نقدم خدمات توريد ونقل الديزل بجودة عالية ومعايير سلامة دقيقة لضمان استمرارية أعمالكم دون انقطاع. أسطولنا جاهز لخدمتكم أينما كنتم.
+                </p>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="flex flex-col sm:flex-row items-center md:justify-start justify-center gap-4">
+                    <a href="https://wa.me/966551870745" target="_blank" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full transition-transform transform hover:-translate-y-1 flex items-center justify-center gap-2 shadow-lg">
+                        <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i> طلب تسعيرة عبر واتسآب
+                    </a>
+                    <a href="#services" class="w-full sm:w-auto bg-transparent border-2 border-white hover:border-accent hover:text-accent text-white font-bold py-4 px-8 rounded-full transition-all flex items-center justify-center gap-2">
+                        استكشف خدماتنا
+                        <i class="fa-solid fa-arrow-left mt-1" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 w-full h-16 bg-surface" style="clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 100%);"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-surface">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="inline-flex items-center gap-2 text-accent font-bold mb-3">
+                        <i class="fa-solid fa-minus" aria-hidden="true"></i> من نحن
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">نحن <span class="text-accent">كيان الفوز</span> شركاء نجاحك في توريد الطاقة</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">
+                        نحن في شركة "كيان الفوز" نُقدّم خدمات توريد ونقل الديزل بجودة عالية ومعايير سلامة معتمدة داخل المملكة العربية السعودية. نمتلك أسطولًا مجهّزًا من الصهاريج المصرّح بها لتأمين وصول الوقود إلى وجهته بسرعة وأمان، مع التزام تام بالمعايير البيئية والسلامة التشغيلية.
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 border-r-4 border-r-secondary hover:shadow-md transition-shadow">
+                            <i class="fa-solid fa-bullseye text-3xl text-secondary mb-4" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-primary mb-2">مهمتنا</h3>
+                            <p class="text-gray-600 text-sm">توفير وقود موثوق وخدمة نقل آمنة تدعم استمرارية أعمال عملائنا دون انقطاع بأعلى معايير الجودة.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 border-r-4 border-r-accent hover:shadow-md transition-shadow">
+                            <i class="fa-solid fa-eye text-3xl text-accent mb-4" aria-hidden="true"></i>
+                            <h3 class="text-xl font-bold text-primary mb-2">رؤيتنا</h3>
+                            <p class="text-gray-600 text-sm">أن نكون الخيار الأول في المملكة، عبر بناء علاقات شراكة طويلة الأمد قائمة على الثقة والمصداقية.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Grid -->
+                <div class="w-full lg:w-1/2 relative" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="p1.jpg" alt="عمليات توريد وتفريغ الديزل" class="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-accent rounded-2xl -z-10 opacity-50"></div>
+                    <div class="absolute -top-6 -left-6 w-32 h-32 bg-secondary rounded-full -z-10 opacity-20"></div>
+
+                    <!-- Floating Badge -->
+                    <div class="absolute bottom-10 left-[-20px] bg-white p-4 rounded-xl shadow-xl flex items-center gap-4 z-20 animate-bounce" style="animation-duration: 3s;">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center text-green-600 text-2xl">
+                            <i class="fa-solid fa-shield-check" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <span class="block text-primary font-bold text-lg">معتمدون</span>
+                            <span class="block text-gray-500 text-sm">أعلى معايير السلامة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <div class="inline-flex items-center gap-2 text-accent font-bold mb-3 justify-center">
+                    <i class="fa-solid fa-minus" aria-hidden="true"></i> ماذا نقدم <i class="fa-solid fa-minus" aria-hidden="true"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">خدمات متكاملة لتوريد ونقل الديزل</h2>
+                <p class="text-gray-600">نقدم حلولاً مرنة وموثوقة لضمان وصول الوقود في الوقت المحدد وبالجودة المطلوبة.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-surface rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-3xl text-secondary service-icon">
+                        <i class="fa-solid fa-gas-pump" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">توريد الديزل</h3>
+                    <p class="text-gray-600 leading-relaxed">نوفّر وقود الديزل عالي الجودة من مصادر معتمدة، ونقوم بتوصيله بأمان إلى مختلف المواقع داخل المملكة.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card bg-surface rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-3xl text-secondary service-icon">
+                        <i class="fa-solid fa-truck-moving" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">النقل الآمن للوقود</h3>
+                    <p class="text-gray-600 leading-relaxed">نستخدم صهاريج حديثة ومصرّح بها لضمان نقل الوقود بطريقة آمنة وسلسة، مع متابعة فورية لحالة الشحنات.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card bg-surface rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-3xl text-secondary service-icon">
+                        <i class="fa-solid fa-file-signature" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">عقود توريد مرنة</h3>
+                    <p class="text-gray-600 leading-relaxed">نقدّم خطط توريد شهرية أو سنوية قابلة للتخصيص حسب احتياج العميل، لضمان استمرارية الإمداد دون انقطاع.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectors We Serve -->
+    <section id="sectors" class="py-20 bg-surface">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">القطاعات التي نخدمها</h2>
+                <p class="text-gray-600">نوفر احتياجات الطاقة لمختلف القطاعات لضمان تشغيل مشاريعكم بكفاءة عالية وبدون توقف.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+                <!-- Sector 1 -->
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="w-20 h-20 mx-auto bg-primary/5 rounded-full flex items-center justify-center text-secondary text-4xl mb-4">
+                        <i class="fa-solid fa-building-user" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="font-bold text-primary">المقاولات والإنشاءات</h3>
+                </div>
+                <!-- Sector 2 -->
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="w-20 h-20 mx-auto bg-primary/5 rounded-full flex items-center justify-center text-secondary text-4xl mb-4">
+                        <i class="fa-solid fa-industry" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="font-bold text-primary">المصانع والتشغيل</h3>
+                </div>
+                <!-- Sector 3 -->
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="w-20 h-20 mx-auto bg-primary/5 rounded-full flex items-center justify-center text-secondary text-4xl mb-4">
+                        <i class="fa-solid fa-tractor" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="font-bold text-primary">المشاريع الزراعية</h3>
+                </div>
+                <!-- Sector 4 -->
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="w-20 h-20 mx-auto bg-primary/5 rounded-full flex items-center justify-center text-secondary text-4xl mb-4">
+                        <i class="fa-solid fa-hospital" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="font-bold text-primary">المستشفيات والمراكز</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work -->
+    <section id="process" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <div class="inline-flex items-center gap-2 text-accent font-bold mb-3 justify-center">
+                    <i class="fa-solid fa-minus" aria-hidden="true"></i> خطوات بسيطة <i class="fa-solid fa-minus" aria-hidden="true"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">كيف نعمل؟</h2>
+                <p class="text-gray-600">عملية سلسة ومنظمة لضمان وصول الديزل بأعلى جودة وفي الوقت المحدد.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-start relative gap-8 md:gap-4 z-10">
+                <!-- Step 1 -->
+                <div class="process-step flex-1 text-center relative w-full" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-line relative mx-auto w-16 h-16 bg-white border-4 border-secondary rounded-full flex items-center justify-center text-xl font-bold text-secondary mb-4 z-10">1</div>
+                    <h3 class="font-bold text-lg text-primary mb-2">تلقي الطلب</h3>
+                    <p class="text-gray-500 text-sm">استقبال طلباتكم عبر قنوات التواصل وتحديد الكمية والموقع.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="process-step flex-1 text-center relative w-full" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-line relative mx-auto w-16 h-16 bg-secondary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 z-10 shadow-lg shadow-secondary/30">2</div>
+                    <h3 class="font-bold text-lg text-primary mb-2">تجهيز الشحنة</h3>
+                    <p class="text-gray-500 text-sm">تعبئة الصهاريج من مصادر معتمدة والتأكد من نقاء وجودة الديزل.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="process-step flex-1 text-center relative w-full" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-line relative mx-auto w-16 h-16 bg-white border-4 border-secondary rounded-full flex items-center justify-center text-xl font-bold text-secondary mb-4 z-10">3</div>
+                    <h3 class="font-bold text-lg text-primary mb-2">النقل والتتبع</h3>
+                    <p class="text-gray-500 text-sm">انطلاق الشحنة مع أسطولنا الآمن، وتتبع مسارها حتى الوصول.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="process-step flex-1 text-center relative w-full" data-aos="fade-up" data-aos-delay="400">
+                    <div class="process-line relative mx-auto w-16 h-16 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 z-10 shadow-lg shadow-accent/30">4</div>
+                    <h3 class="font-bold text-lg text-primary mb-2">التفريغ والتوثيق</h3>
+                    <p class="text-gray-500 text-sm">تفريغ الحمولة وفق إجراءات السلامة، وتسليم فواتير وتوثيق الكميات.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 bg-primary relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+        <div class="container mx-auto px-4 md:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Text / Accordion -->
+                <div class="w-full lg:w-1/2 text-white" data-aos="fade-left">
+                    <span class="text-accent font-bold mb-2 block tracking-wider">التميز هدفنا</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">لماذا تختار <span class="text-accent">كيان الفوز</span>؟</h2>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-12 h-12 rounded-full bg-accent/20 text-accent flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2 text-white">توصيل سريع وآمن</h4>
+                                <p class="text-gray-300 text-sm leading-relaxed">أسطول مجهز بأحدث أنظمة النقل لضمان الوصول بأمان وفي الوقت المحدد.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-12 h-12 rounded-full bg-accent/20 text-accent flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-medal" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2 text-white">جودة وسلامة مضمونة</h4>
+                                <p class="text-gray-300 text-sm leading-relaxed">نلتزم بأعلى معايير الجودة لضمان سلامة الوقود والمحافظة على نقائه.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-12 h-12 rounded-full bg-accent/20 text-accent flex items-center justify-center shrink-0 text-xl">
+                                <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2 text-white">دعم فني وتجاوب سريع</h4>
+                                <p class="text-gray-300 text-sm leading-relaxed">فريقنا متاح على مدار الساعة للإجابة على استفساراتكم وحل أي طارئ.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Composition -->
+                <div class="w-full lg:w-1/2" data-aos="fade-right">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="كفاءات كيان الفوز في الميدان" class="rounded-2xl border-4 border-white/10 shadow-2xl">
+                        <!-- Experience Badge -->
+                        <div class="absolute -bottom-10 -right-10 bg-accent text-primary w-40 h-40 rounded-full flex flex-col items-center justify-center font-bold border-8 border-primary shadow-2xl transform rotate-12">
+                            <span class="text-4xl">15</span>
+                            <span class="text-lg uppercase">عاماً من</span>
+                            <span class="text-sm">الخبرة والريادة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats & Trust -->
+    <section id="stats" class="py-16 bg-surface border-b border-gray-200">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-x-reverse divide-gray-200">
+                <div class="p-4" data-aos="zoom-in" data-aos-delay="0">
+                    <i class="fa-solid fa-road text-4xl text-secondary mb-4 opacity-70" aria-hidden="true"></i>
+                    <div class="text-4xl md:text-5xl font-extrabold text-primary mb-2 counter" data-target="1250000">0</div>
+                    <p class="text-gray-500 font-bold">إجمالي النقل (كم)</p>
+                </div>
+                <div class="p-4" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fa-solid fa-map-location-dot text-4xl text-secondary mb-4 opacity-70" aria-hidden="true"></i>
+                    <div class="text-4xl md:text-5xl font-extrabold text-primary mb-2 counter" data-target="13">0</div>
+                    <p class="text-gray-500 font-bold">المناطق المغطاة</p>
+                </div>
+                <div class="p-4" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fa-solid fa-users text-4xl text-secondary mb-4 opacity-70" aria-hidden="true"></i>
+                    <div class="text-4xl md:text-5xl font-extrabold text-primary mb-2">
+                        <span class="counter" data-target="320">0</span>+
+                    </div>
+                    <p class="text-gray-500 font-bold">عميل يثق بنا</p>
+                </div>
+                <div class="p-4" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fa-solid fa-truck-fast text-4xl text-secondary mb-4 opacity-70" aria-hidden="true"></i>
+                    <div class="text-4xl md:text-5xl font-extrabold text-primary mb-2"><span class="counter" data-target="50">0</span>+</div>
+                    <p class="text-gray-500 font-bold">صهريج مجهز</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials & Partners (UPDATED) -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">آراء عملاؤنا وشركاء النجاح</h2>
+                <p class="text-gray-600">نفخر بثقة كبرى الشركات والمصانع التي تعتمد علينا يومياً لضمان استمرارية أعمالها.</p>
+            </div>
+
+            <!-- Partners Logos -->
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 mb-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500" data-aos="fade-up">
+                <div class="text-2xl font-extrabold text-gray-400">شركة الفنار</div>
+                <div class="text-2xl font-extrabold text-gray-400">مجموعة السيف</div>
+                <div class="text-2xl font-extrabold text-gray-400">NCC Consultants</div>
+                <div class="text-2xl font-extrabold text-gray-400">وأكثر من 300+ شريك</div>
+            </div>
+
+            <!-- Testimonials Grid (Expanded to 4 items) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-surface p-8 rounded-2xl relative border border-gray-100 shadow-sm hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-quote-right text-6xl text-accent opacity-10 absolute top-4 right-4" aria-hidden="true"></i>
+                    <p class="text-gray-600 text-lg mb-6 relative z-10 leading-relaxed italic">
+                        "تعاملنا مع كيان الفوز في عدة مشاريع بنية تحتية ضخمة، وما يميزهم حقاً هو الالتزام الدقيق بمواعيد التوريد وجودة الديزل العالية التي حافظت على كفاءة معداتنا الثقيلة دون أعطال."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-inner">خ</div>
+                        <div>
+                            <h4 class="font-bold text-primary text-lg">م. خالد الراشد</h4>
+                            <span class="text-sm text-accent font-semibold">مدير مشاريع البنية التحتية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-surface p-8 rounded-2xl relative border border-gray-100 shadow-sm hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-quote-right text-6xl text-accent opacity-10 absolute top-4 right-4" aria-hidden="true"></i>
+                    <p class="text-gray-600 text-lg mb-6 relative z-10 leading-relaxed italic">
+                        "انتقلنا للتعامل مع كيان الفوز منذ عامين وكانت من أفضل الخطوات التشغيلية. سرعة فائقة في التجاوب، أسطول حديث ومجهز، وأسعار تعاقد تنافسية جداً مقارنة بالسوق."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-inner">ع</div>
+                        <div>
+                            <h4 class="font-bold text-primary text-lg">عبدالله السالم</h4>
+                            <span class="text-sm text-accent font-semibold">المدير التشغيلي لشركة نقليات</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-surface p-8 rounded-2xl relative border border-gray-100 shadow-sm hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-quote-right text-6xl text-accent opacity-10 absolute top-4 right-4" aria-hidden="true"></i>
+                    <p class="text-gray-600 text-lg mb-6 relative z-10 leading-relaxed italic">
+                        "توفير الوقود للمولدات الاحتياطية في المستشفيات يتطلب دقة وأمان بدرجة 100%، وكيان الفوز أثبتوا أنهم أهل لهذه الثقة. توريد مستمر وموثوق دون أي نسبة تأخير."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center text-primary font-bold text-xl shadow-inner">ف</div>
+                        <div>
+                            <h4 class="font-bold text-primary text-lg">د. فهد العتيبي</h4>
+                            <span class="text-sm text-secondary font-semibold">مدير إدارة المشتريات الطبية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-surface p-8 rounded-2xl relative border border-gray-100 shadow-sm hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fa-solid fa-quote-right text-6xl text-accent opacity-10 absolute top-4 right-4" aria-hidden="true"></i>
+                    <p class="text-gray-600 text-lg mb-6 relative z-10 leading-relaxed italic">
+                        "أفضل شركة تعاملت معها في توريد الديزل للقطاع الزراعي. مصداقية عالية في التعامل، ومرونة ممتازة في جدولة الدفعات وتوصيل الكميات للأماكن النائية."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-gray-800 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-inner">س</div>
+                        <div>
+                            <h4 class="font-bold text-primary text-lg">سعد الدوسري</h4>
+                            <span class="text-sm text-accent font-semibold">مالك مجموعة مشاريع زراعية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-surface">
+        <div class="container mx-auto px-4 md:px-8 max-w-4xl">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">الأسئلة الشائعة</h2>
+                <p class="text-gray-600">إجابات على أهم الاستفسارات التي تهمكم قبل البدء بالتعاقد معنا.</p>
+            </div>
+
+            <div class="space-y-4" data-aos="fade-up" data-aos-delay="200">
+                <!-- FAQ 1 -->
+                <details class="bg-white rounded-xl shadow-sm border border-gray-200 group cursor-pointer" open>
+                    <summary class="flex justify-between items-center font-bold p-6 text-primary select-none group-hover:text-accent transition-colors">
+                        هل توفرون عقود توريد ديزل طويلة الأمد؟
+                        <span class="transition group-open:rotate-180">
+                            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 border-t border-gray-100 mt-2 leading-relaxed">
+                        نعم، بكل تأكيد. نوفر عقود توريد مرنة (شهرية، نصف سنوية، وسنوية) تناسب احتياجات الشركات والمصانع لضمان عدم انقطاع سير العمل لديكم بأسعار تنافسية.
+                    </div>
+                </details>
+                <!-- FAQ 2 -->
+                <details class="bg-white rounded-xl shadow-sm border border-gray-200 group cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-primary select-none group-hover:text-accent transition-colors">
+                        ما هي المناطق التي تغطونها بخدماتكم؟
+                        <span class="transition group-open:rotate-180">
+                            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 border-t border-gray-100 mt-2 leading-relaxed">
+                        بفضل أسطولنا الضخم، نغطي جميع مناطق ومدن المملكة العربية السعودية، مع التزامنا التام بالوصول إلى أبعد المواقع والمشاريع النائية بأمان وفي الوقت المحدد.
+                    </div>
+                </details>
+                <!-- FAQ 3 -->
+                <details class="bg-white rounded-xl shadow-sm border border-gray-200 group cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-primary select-none group-hover:text-accent transition-colors">
+                        كيف تضمنون جودة ونقاء الديزل؟
+                        <span class="transition group-open:rotate-180">
+                            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 border-t border-gray-100 mt-2 leading-relaxed">
+                        يتم توريد الديزل من مصادر معتمدة ورسمية، وتخضع صهاريجنا لعمليات تنظيف دورية ومطابقة لمعايير الجودة والسلامة لمنع أي شوائب، مما يحافظ على كفاءة معداتكم ومولداتكم.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Contact Banner -->
+    <section class="bg-accent py-12 relative overflow-hidden">
+        <div class="absolute inset-0 bg-primary/10"></div>
+        <div class="container mx-auto px-4 md:px-8 text-center flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
+            <div class="text-right flex-1">
+                <h3 class="text-2xl md:text-3xl font-bold text-primary mb-2">هل أنت مستعد لتأمين وقود مشروعك؟</h3>
+                <p class="text-primary/80 font-semibold text-lg">تواصل مع كيان الفوز اليوم واحصل على أفضل عرض سعر مخصص لك.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/966551870745" target="_blank" class="bg-primary text-white hover:bg-secondary font-bold py-3 px-6 rounded-lg transition-colors flex items-center gap-2 shadow-md">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> تواصل واتساب
+                </a>
+                <a href="mailto:kayanalfawz@gmail.com" class="bg-white text-primary hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition-colors flex items-center gap-2 shadow-md">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i> راسلنا للإستفسار
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-gray-300 pt-16 pb-8 border-t-4 border-accent">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- About -->
+                <div class="lg:col-span-2">
+                    <a href="#" class="flex items-center gap-2 mb-6" aria-label="الرئيسية">
+                        <i class="fa-solid fa-truck-droplet text-accent text-3xl" aria-hidden="true"></i>
+                        <span class="text-2xl font-bold text-white tracking-wider">كيان الفوز</span>
+                    </a>
+                    <p class="mb-6 leading-relaxed text-gray-400 max-w-md">
+                        كيان الفوز، شريكك الموثوق في توريد ونقل الديزل بجودة عالية ومعايير سلامة دقيقة داخل المملكة العربية السعودية للشركات، المصانع، والمزارع.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-colors text-xl" aria-label="تويتر"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-colors text-xl" aria-label="انستغرام"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-colors text-xl" aria-label="لينكد ان"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6 border-b-2 border-accent pb-2 inline-block">روابط سريعة</h4>
+                    <ul class="space-y-3 font-semibold">
+                        <li><a href="#home" class="hover:text-accent flex items-center gap-2"><i class="fa-solid fa-angle-left text-accent text-sm" aria-hidden="true"></i> الرئيسية</a></li>
+                        <li><a href="#about" class="hover:text-accent flex items-center gap-2"><i class="fa-solid fa-angle-left text-accent text-sm" aria-hidden="true"></i> من نحن</a></li>
+                        <li><a href="#services" class="hover:text-accent flex items-center gap-2"><i class="fa-solid fa-angle-left text-accent text-sm" aria-hidden="true"></i> خدماتنا</a></li>
+                        <li><a href="#sectors" class="hover:text-accent flex items-center gap-2"><i class="fa-solid fa-angle-left text-accent text-sm" aria-hidden="true"></i> القطاعات المستهدفة</a></li>
+                        <li><a href="#faq" class="hover:text-accent flex items-center gap-2"><i class="fa-solid fa-angle-left text-accent text-sm" aria-hidden="true"></i> الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6 border-b-2 border-accent pb-2 inline-block">معلومات التواصل</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-accent mt-1 text-lg" aria-hidden="true"></i>
+                            <span>المملكة العربية السعودية<br>نغطي كافة مناطق المملكة</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-accent text-lg" aria-hidden="true"></i>
+                            <a href="tel:+966551870745" class="hover:text-white dir-ltr font-sans" dir="ltr">+966 55 187 0745</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope text-accent text-lg" aria-hidden="true"></i>
+                            <a href="mailto:kayanalfawz@gmail.com" class="hover:text-white font-sans">kayanalfawz@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
+                <p>&copy; 2024 جميع الحقوق محفوظة لشركة <strong>كيان الفوز</strong> لتوريد ونقل الديزل.</p>
+                <p class="mt-2 md:mt-0">تصميم وتطوير بكل احترافية.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating WhatsApp Button -->
+    <a href="https://wa.me/966551870745" target="_blank" class="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-4xl shadow-2xl z-50 whatsapp-float hover:bg-green-500 transition-colors"
+        aria-label="تواصل معنا عبر واتساب">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animate On Scroll
+        AOS.init({
+            once: true,
+            offset: 100
+        });
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Number Counter Animation
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+
+        const startCounting = (counter) => {
+            const animate = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText.replace(/,/g, '');
+                const inc = target / speed;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + inc).toLocaleString();
+                    setTimeout(animate, 10);
+                } else {
+                    counter.innerText = target.toLocaleString();
+                }
+            };
+            animate();
+        }
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
+        };
+        let counted = false;
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !counted) {
+                    counters.forEach(counter => startCounting(counter));
+                    counted = true;
+                }
+            });
+        }, observerOptions);
+
+        const statsSection = document.getElementById('stats');
+        if (statsSection) observer.observe(statsSection);
+    </script>
+</body>
+
+</html>
